@@ -33,7 +33,7 @@ body {
 #topR {
   display: grid;
   grid-auto-flow: column;
-  gap: 2rem;
+  gap: 3rem;
   font-size: 2rem;
 }
 
@@ -81,4 +81,40 @@ img {
   margin-left: 1rem;
   text-align: start;
   color: aliceblue;
+}
+
+#menuBottomL {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  padding: 2rem;
+  border: 2px solid #333333;
+  text-align: center;
+}
+
+#contactBottomL {
+  font-size: 1.5rem;
+  display: grid;
+  gap: 2rem;
+}
+#contactBottomL h2 {
+  border-bottom: 2px inset #333333;
+}
+
+.box {
+  display: grid;
+  gap: 0.5rem;
+}
+
+#topR div:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#topR div:active {
+  font-weight: normal;
 }
