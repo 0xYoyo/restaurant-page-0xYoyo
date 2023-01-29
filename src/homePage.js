@@ -62,7 +62,7 @@ export default function loadHome() {
   bottomR.setAttribute("id", "bottomR");
   bottom.appendChild(bottomR);
   const image = document.createElement("img");
-  image.setAttribute("src", "../images/pizza.jpg");
+  image.setAttribute("src", "./images/pizza.jpg");
   image.setAttribute("alt", "pizza");
   bottomR.appendChild(image);
   const credit = document.createElement("div");
